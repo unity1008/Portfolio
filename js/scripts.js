@@ -5,13 +5,13 @@ let timer = setInterval(onTick, 2500);
 
 function onTick() {
   if (n === 0) {
-    text.innerHTML = " Hi there! I'm <span >Rajeev</span>";
+    text.innerHTML = " Hi there! I'm <span >Waqar</span>";
 
     n = 1;
     return;
   }
   if (n === 4) {
-    text.innerHTML = ' Hi there! I\'m <span class="jobs" ">Rajeev.</span>';
+    text.innerHTML = ' Hi there! I\'m <span class="jobs" ">Waqar.</span>';
 
     n = 1;
     return;
@@ -50,15 +50,15 @@ const name = document.querySelector(".navbar-brand");
 
 $(document).ready(function() {
   if ($(window).width() < 400) {
-    name.innerHTML = "RAJEEV NARUKA";
+    name.innerHTML = "Waqar Ahmad";
   } else {
-    name.innerHTML = "RAJEEV SINGH NARUKA";
+    name.innerHTML = "Waqar Ahmad ";
   }
 });
 $(window).resize(function() {
   if ($(window).width() < 400) {
-    name.innerHTML = "RAJEEV NARUKA";
+    name.innerHTML = "Waqar Ahmad";
   } else {
-    name.innerHTML = "RAJEEV SINGH NARUKA";
+    name.innerHTML = "Waqar Ahmad";
   }
 });
